@@ -4,6 +4,16 @@
 
 > Node.js Desktop Automation. Control the mouse, keyboard, and read the screen.
 
+How to prebuild:
+
+Run a command like this:
+
+`npm run prebuild --openssl_fips='' -t 21.4.4 -r electron`
+
+Then upload the result to the release in github.
+
+---
+
 RobotJS supports Mac, [Windows](https://github.com/octalmage/robotjs/issues/2), and [Linux](https://github.com/octalmage/robotjs/issues/17).
 
 This is a work in progress so the exported functions could change at any time before the first stable release (1.0.0). [Ideas?](https://github.com/octalmage/robotjs/issues/4)
